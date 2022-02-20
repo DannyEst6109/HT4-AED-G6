@@ -2,22 +2,22 @@
 class StackFactory<E> {
 	public Stack<E> getStack(String entry) {
 	    // seleccion de la implementacion a utilizar:
-		if (entry.equals("AL")) {
+		if (entry.equals("1")) { // 1 elije ArrayList
 	      return new StackArrayList<E>(); //regresa ArrayList
 		}
-		else if (entry.equals("Vec")){
+		else if (entry.equals("2")){ // Elije Vector
 			return new StackVector<E>(); //regresa Vector
-		}else {
-			return new StackList<E>();
+		}else {// Sino elije lista
+			return getList(entry);
 		}
 	      
 	   }
 	
-	public List<E> getList(String entryList){
-		   if (entryList.equals("D")) {
-			   return new DoublyLinkedList<E>();
-		   }else {
-			   return new SinglyLinkedList<E>();
+	public Stack<E> getList(String entryList){
+		   if (entryList.equals("3")) {         // Elije lista doblemente encadenada
+			   return new DoublyLinkedListStack<E>();
+		   }else { 								// escoge lista simplemente encadenada
+			   return new SinglyLinkedListStack<E>();
 		   }
 	   }
 }
