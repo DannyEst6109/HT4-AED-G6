@@ -1,4 +1,12 @@
-
+/**
+ * Calculadora
+ * Objetivo: Lograr operar una operaccion postfix 
+ * 
+ * @author Carlos Martinez
+ * @author Paulo Sánchez
+ * @author Carlos Estrada 
+ * @version 1.0 finalizado 22/02/2022
+ */
 public class Calculadora {
 	
 	//this is a prototype for a printer-spooler class

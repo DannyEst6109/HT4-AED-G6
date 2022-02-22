@@ -1,3 +1,12 @@
+/**
+ * SinglyLinkedList
+ * Objetivo: Metodos definidos de los SinglyLinkedList
+ * 
+ * @author Carlos Martinez
+ * @author Paulo Sánchez
+ * @author Carlos Estrada 
+ * @version 1.0 finalizado 22/02/2022
+ */
 import java.util.Vector;
 
 public class StackVector<E> extends AbstractStack<E> {

@@ -1,4 +1,12 @@
-
+/**
+ * Singly Linked List 
+ * Objetivo: Definir la interfaz de las listas simplemente encadenada a partir del stack
+ * 
+ * @author Carlos Martinez
+ * @author Paulo Sánchez
+ * @author Carlos Estrada 
+ * @version 1.0 finalizado 22/02/2022
+ */
 public class SinglyLinkedListStack<E> extends AbstractStack<E> {
 private SinglyLinkedList<E> lista = new SinglyLinkedList<E>();
 	

@@ -1,5 +1,13 @@
 
-
+/**
+ * DoublyLinkedList
+ * Objetivo: Implementacion de la lista doblemente encadenada
+ * 
+ * @author Carlos Martinez
+ * @author Paulo Sánchez
+ * @author Carlos Estrada 
+ * @version 1.0 finalizado 22/02/2022
+ */
 public class DoublyLinkedList<E> extends AbstractList<E> {
 	protected int count;
 	protected DoublyLinkedNode<E> head;

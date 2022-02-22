@@ -1,3 +1,12 @@
+/**
+ * Main
+ * Objetivo: Intermediar todas la implementaciones, lograr realizar la traduccion de postfix a infix, y hacer la operación
+ * 
+ * @author Carlos Martinez
+ * @author Paulo Sánchez
+ * @author Carlos Estrada 
+ * @version 1.0 finalizado 22/02/2002
+ */
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;

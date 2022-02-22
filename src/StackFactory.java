@@ -1,4 +1,12 @@
-
+/**
+ * StackFactory
+ * Objetivo: Clase encargada de hacer el Factory
+ * 
+ * @author Carlos Martinez
+ * @author Paulo Sánchez
+ * @author Carlos Estrada 
+ * @version 1.0 finalizado 22/02/2022
+ */
 class StackFactory<E> {
 	public Stack<E> getStack(String entry) {
 	    // seleccion de la implementacion a utilizar:

@@ -1,4 +1,12 @@
-
+/**
+ * List
+ * Objetivo: Definir la interfaz de listas 
+ * 
+ * @author Carlos Martinez
+ * @author Paulo Sánchez
+ * @author Carlos Estrada 
+ * @version 1.0 finalizado 22/02/2022
+ */
 public interface List<E> {
 	
 	// Sera usado para empty del Stack

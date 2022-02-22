@@ -1,9 +1,18 @@
+/**
+ * InfixtToPostfix
+ * Objetivo: Traductor de expresion postfix a infix
+ * 
+ * @author Carlos Martinez
+ * @author Paulo Sánchez
+ * @author Carlos Estrada 
+ * @version 1.0 finalizado 22/02/2022
+ */
 import java.util.Stack;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 public class InfixToPostfix {
-	
+	//Metodo para leer 
 	public String Leer() {
 		ArrayList<String> lista = new ArrayList<>();
 		

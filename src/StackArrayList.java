@@ -1,3 +1,12 @@
+/**
+ * StackArrayList
+ * Objetivo: Definicion de metodos de StackArrayList
+ * 
+ * @author Carlos Martinez
+ * @author Paulo Sánchez
+ * @author Carlos Estrada 
+ * @version 1.0 finalizado 22/02/2022
+ */
 import java.util.ArrayList;
 
 public class StackArrayList<E> extends AbstractStack<E> {
